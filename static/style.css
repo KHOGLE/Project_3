@@ -1,0 +1,17 @@
+.jumbotron {
+    background-color: burlywood;
+    border-block-end-width: 10px;
+    border-block-end-style: solid;
+    border-block-end-color: saddlebrown;
+    font-family: Garamond, serif;  
+    }
+    .well {
+    border-color: saddlebrown;
+    border-width: medium;
+    }
+    /* .panel {
+        font-size: 20px;
+    } */
+    h5 {font-size: 16px;}
+    h1 {font-weight: bold;}
+    /* p {font-size: 20px; font-weight: bold;} */
