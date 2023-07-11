@@ -1,7 +1,22 @@
-# Project_3
+## Project_3
 
-### Sources Used
-*W3schools
-    *Jumbotron, CSS options, Font styles, Well, Panels
-*getbootstrap.com
-    *Grid system
+# Actual Title
+**Collaborators**: Katharyn Hogle, Jacob Bayer, Jose Varrera, and Naomi Martin
+
+## Summary
+
+
+### Data Source
+**Data.gov** https://catalog.data.gov/dataset/listing-of-active-businesses 
+
+## Results
+
+<!-- ![Dashboard Screenshot](Images/ImageName.png) -->
+
+<!-- ![Graph1](Images/ImageName.png) -->
+<!-- ![Graph2](Images/ImageName.png) -->
+<!-- ![Graph3](Images/ImageName.png) -->
+
+### Code Building Sources
+**W3schools** for the Jumbotron, CSS options, Font styles, Well, and Panels
+**getbootstrap.com** for the Grid system
