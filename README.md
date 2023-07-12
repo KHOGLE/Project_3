@@ -20,3 +20,4 @@
 ### Code Building Sources
 **W3schools** for the Jumbotron, CSS options, Font styles, Well, and Panels
 **getbootstrap.com** for the Grid system
+**Personal Assisters** TA Kyle
