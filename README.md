@@ -20,4 +20,5 @@
 ### Code Building Sources
 **W3schools** for the Jumbotron, CSS options, Font styles, Well, and Panels
 **getbootstrap.com** for the Grid system
+**https://stackoverflow.com/questions/31394998/using-sqlalchemy-to-load-csv-file-into-a-database** For Sql database formation
 **Personal Assisters** TA Kyle

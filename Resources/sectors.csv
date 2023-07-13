@@ -1,0 +1,25 @@
+SECTOR,INDUSTRY DESCRIPTION
+11.0,"Agriculture, Forestry, Fishing and Hunting"
+21.0,"Mining, Quarrying, and Oil and Gas Extraction"
+22.0,Utilities
+23.0,Construction
+31.0,Manufacturing
+32.0,Manufacturing
+33.0,Manufacturing
+42.0,Wholesale Trade
+44.0,Retail Trade
+45.0,Retail Trade
+48.0,Transportation and Warehousing
+49.0,Transportation and Warehousing
+51.0,Information
+52.0,Finance and Insurance
+53.0,Real Estate and Rental and Leasing
+54.0,"Professional, Scientific, and Technical Services"
+55.0,Management of Companies and Enterprises
+56.0,Administrative and Support and Waste Management and Remediation Services
+61.0,Educational Services
+62.0,Health Care and Social Assistance
+71.0,"Arts, Entertainment, and Recreation"
+72.0,Accommodation and Food Services
+81.0,Other Services (except Public Administration)
+92.0,Public Administration
