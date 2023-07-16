@@ -3,10 +3,12 @@ from sqlalchemy import Column, Integer, Float, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+import csv
+import pandas as pd
 
-def Load_Data(file_name):
-    data = genfromtxt(file_name, delimiter=',', skip_header=1, converters={0: lambda s: str(s)})
-    return data.tolist()
+# def Load_Data(file_name):
+#     data = csv.reader(file_name, delimiter=',', skip_header=1, converters={0: lambda s: str(s)})
+#     return data.tolist()
 
 Base = declarative_base()
 
@@ -30,36 +32,42 @@ class Business_Data(Base):
 if __name__ == "__main__":
 
     #Create the database
-    engine = create_engine('sqlite:///business_data.db')
+    engine = create_engine('sqlite:///business_data1.db')
     Base.metadata.create_all(engine)
+    file_name = "Resources/BusinessData_Final.csv"
+    df = pd.read_csv(file_name)
+    df.to_sql(con=engine, name=Business_Data.__tablename__, if_exists='replace')
+
 
     #Create the session
-    session = sessionmaker()
-    session.configure(bind=engine)
-    s = session()
+    # session = sessionmaker()
+    # session.configure(bind=engine)
+    # s = session()
 
-    try:
-        file_name = "BusinessData_Final.csv" 
-        data = Load_Data(file_name) 
 
-        for i in data:
-            record = Business_Data(**{
-                'id': i[0],
-                'business_name' : i[1],
-                'street_address' : i[2],
-                'city' : i[3],
-                'zip_code' : i[4],
-                'naics_sector' : i[5],
-                'industry' : i[6],
-                'location_start_date': i[7],
-                'coordinates' : i[8],
-                'lat': i[9],
-                'lng' : i[10]
-            })
-            s.add(record) #Add all the records
 
-        s.commit() #Attempt to commit all the records
-    except:
-        s.rollback() #Rollback the changes on error
-    finally:
-        s.close()
+    # try:
+    #     file_name = "BusinessData_Final.csv" 
+    #     data = Load_Data(file_name) 
+
+    #     for i in data:
+    #         record = Business_Data(**{
+    #             'id': i[0],
+    #             'business_name' : i[1],
+    #             'street_address' : i[2],
+    #             'city' : i[3],
+    #             'zip_code' : i[4],
+    #             'naics_sector' : i[5],
+    #             'industry' : i[6],
+    #             'location_start_date': i[7],
+    #             'coordinates' : i[8],
+    #             'lat': i[9],
+    #             'lng' : i[10]
+    #         })
+    #         s.add(record) #Add all the records
+
+    #     s.commit() #Attempt to commit all the records
+    # except:
+    #     s.rollback() #Rollback the changes on error
+    # finally:
+    #     s.close()

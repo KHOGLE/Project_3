@@ -59,11 +59,19 @@
         </div>
     </div>
 
-    <script> const fullDataURL = "{{http://127.0.0.1:5000/api/v1.0/full_data.json}}";</script>
-    <script type="module" src="{{url_for('static', filename='app.js')}}"></script>
+    <!-- <script>
+        d3.json(fullDataURL).then(function(data){
+        console.log(data)})
+    </script> -->
+    <!-- <script> const fullDataURL = "{{url_for('data')}}";</script> -->
+    <!-- <script> const fullDataURL = "http://127.0.0.1:5000/api/v1.0/full_data.json";</script> -->
+    <!-- <script type="module" src="url_for('static', filename='app.js')" async></script> -->
+    <!-- <script src=""></script> -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="./static/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 </body>
 </html>
