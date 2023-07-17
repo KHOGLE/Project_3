@@ -33,15 +33,22 @@
 
 ## Relevance
 -All of this data is designed to determine what a successful business might look like.
+
 -Industry v. StartDate determines current and outdated business trends. 
+
 -Industry v. Location determines what districts need what types of businesses.
+
 -Location v. StartDate determines which districts may be up and coming.
+
 -The number of businesses per location may determine what districts are home to more consumers or which districts may need to find more businesses to attract.
+
 -ALL OF THIS DATA IS A GREAT START TO DETERMINING WHERE A BUSINESS COULD PROSPER.
 
 ## Problems Encountered
 -Data Modeling struggles: We managed to create a sqlite.db to run the flask app with, however, it kept crashing as it tried to load making it impossible to connect further on.
+
 -Data Visualization struggles: We tried to change our csv files into Json files to run JavaScript D3 but no matter which form of Json conversion was attempted, the file refused to write correctly and therefor was useless.  
+
 -Plotly in Python brought with it its own variety of issues
 
 
