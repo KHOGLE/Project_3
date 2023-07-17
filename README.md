@@ -24,9 +24,7 @@ Recent years have seen a large spike in businesses opened despite COVID-19.
 Created using Plotly and Jupiter Notebook
 Multi-figured plot using buttons to select between sample options.
 Compares geographical, historic, and industry-based data, respectively. 
-![DropDown Graph](images/2023-07-17(5).png)
-![DropDown Graph2](images/2023-07-17(1).png)
-![DropDown Graph3](images/2023-07-17(3).png)
+
 
 ## Relevance
 All of this data is designed to determine what a successful business might look like.
