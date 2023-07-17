@@ -4,14 +4,14 @@
 **Collaborators**: Katharyn Hogle, Jacob Bayer, Jose Varrera, and Naomi Martin
 
 ## Summary
--How can we determine where success is more likely to occur within Los Angeles without access to the revenue produced by each company?
+- How can we determine where success is more likely to occur within Los Angeles without access to the revenue produced by each company?
 
--We decided that location data, start date, and the total amount of businesses for each industry within those locations is the strongest implication of success. 
+- We decided that location data, start date, and the total amount of businesses for each industry within those locations is the strongest implication of success. 
 
--The most common business consists of mini-warehousing and self-storage in the Los Angeles Area 
--Los Angeles has roughly 14 times more businesses than any sub-city with Van Nuys, California being the most active of those cities.
--In the year 2018, over 38 thousand businesses began operating. 
--Recent years have seen a large spike in businesses opened despite COVID-19.
+- The most common business consists of mini-warehousing and self-storage in the Los Angeles Area 
+- Los Angeles has roughly 14 times more businesses than any sub-city with Van Nuys, California being the most active of those cities.
+- In the year 2018, over 38 thousand businesses began operating. 
+- Recent years have seen a large spike in businesses opened despite COVID-19.
 
 ### Data Sources
 #### Original CSV Source
@@ -21,9 +21,9 @@
 
 ## Visuals 
 
--Created using Plotly and Jupiter Notebook
--Multi-figured plot using buttons to select between sample options.
--Compares geographical, historic, and industry-based data, respectively. 
+- Created using Plotly and Jupiter Notebook
+- Multi-figured plot using buttons to select between sample options.
+- Compares geographical, historic, and industry-based data, respectively. 
 
 ![Drop Down Graph](images/Ten_district_dropdown.png)
 ![90049](images/90049.png)
@@ -32,24 +32,24 @@
 
 
 ## Relevance
--All of this data is designed to determine what a successful business might look like.
+- All of this data is designed to determine what a successful business might look like.
 
--Industry v. StartDate determines current and outdated business trends. 
+- Industry v. StartDate determines current and outdated business trends. 
 
--Industry v. Location determines what districts need what types of businesses.
+- Industry v. Location determines what districts need what types of businesses.
 
--Location v. StartDate determines which districts may be up and coming.
+- Location v. StartDate determines which districts may be up and coming.
 
--The number of businesses per location may determine what districts are home to more consumers or which districts may need to find more businesses to attract.
+- The number of businesses per location may determine what districts are home to more consumers or which districts may need to find more businesses to attract.
 
--ALL OF THIS DATA IS A GREAT START TO DETERMINING WHERE A BUSINESS COULD PROSPER.
+- ALL OF THIS DATA IS A GREAT START TO DETERMINING WHERE A BUSINESS COULD PROSPER.
 
 ## Problems Encountered
--Data Modeling struggles: We managed to create a sqlite.db to run the flask app with, however, it kept crashing as it tried to load making it impossible to connect further on.
+- Data Modeling struggles: We managed to create a sqlite.db to run the flask app with, however, it kept crashing as it tried to load making it impossible to connect further on.
 
--Data Visualization struggles: We tried to change our csv files into Json files to run JavaScript D3 but no matter which form of Json conversion was attempted, the file refused to write correctly and therefor was useless.  
+- Data Visualization struggles: We tried to change our csv files into Json files to run JavaScript D3 but no matter which form of Json conversion was attempted, the file refused to write correctly and therefor was useless.  
 
--Plotly in Python brought with it its own variety of issues
+- Plotly in Python brought with it its own variety of issues
 
 
 ### Code Building Sources
