@@ -1,6 +1,6 @@
 ## Project_3
 
-# Actual Title
+# Starting a Business in LA
 **Collaborators**: Katharyn Hogle, Jacob Bayer, Jose Varrera, and Naomi Martin
 
 ## Summary
@@ -33,7 +33,7 @@ All of this data is designed to determine what a successful business might look 
 Industry v. StartDate determines current and outdated business trends. 
 Industry v. Location determines what districts need what types of businesses.
 Location v. StartDate determines which districts may be up and coming.
-# of businesses per location may determine what districts are home to more consumers or which districts may need to find more businesses to attract.
+The number of businesses per location may determine what districts are home to more consumers or which districts may need to find more businesses to attract.
 ALL OF THIS DATA IS A GREAT START TO DETERMINING WHERE A BUSINESS COULD PROSPER.
 
 ## Problems Encountered
